@@ -1,7 +1,6 @@
-from flask import Flask
 from app.controller import hello_world, ocr_pdf
+from app import app
 
-app = Flask(__name__)
 
 @app.route("/hello", methods=['GET'])
 def api_hello_world():

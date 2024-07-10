@@ -1,0 +1,1 @@
+gunicorn main:app -b 0.0.0.0:5000 --timeout 86400 --access-logfile /mnt/e/GREATEST_PROGRAMMER/ocr-pdf/log/access.log --error-logfile /mnt/e/GREATEST_PROGRAMMER/ocr-pdf/log/error.log --capture-output --log-level debug --daemon

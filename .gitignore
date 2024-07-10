@@ -1,1 +1,10 @@
 venv/
+
+log/
+output/pdf/
+output/txt/
+
+input/
+
+app/__pycache__/*
+__pycache__/*
